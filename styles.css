@@ -1,0 +1,140 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Tajawal;
+
+}
+.head {
+    width: 280px;
+    height: 60px;  
+    padding-left: 180px;
+}
+nav {
+   display: flex; 
+   align-items: center;
+   justify-content: flex-end;
+   margin-right: 220px;
+   margin-top: -35px;
+
+}
+nav ul li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+     
+}
+a {
+    text-decoration: none;
+    color: #9e9e9e;
+    font-size: 17px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#secondimage{
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+}
+.pro{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: bold;
+    color: #575555;
+}
+    
+#firsth{
+    color: #66CDAA;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.firstp{
+    padding-top: 10px;
+    padding-left: 200px;
+    width: 475px;
+}
+.secondp{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 475px;
+}
+.patient{
+    background-color: #00ccb1;
+    width: 260px;
+    height: 275px;
+    border-radius: 3%;
+    padding-top: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.doctor{
+    background-color: #3e83e0;
+    width: 260px;
+    height: 275px;
+    border-radius: 3%;  
+    padding-top: 60px; 
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+.clinic{
+    background-color: #1b2735;
+    width: 260px;
+    height: 275px;
+    border-radius: 3%;
+    padding-top: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+.high{
+    margin-top: 90px;
+    margin-left: 180px;
+    margin-right: 150px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: centr;
+    font-size: 25px;
+
+    
+}
+#pos1 {
+    position: relative;
+    top: 35px;
+    text-decoration: underline;
+    color: white;
+}
+#pos2 {
+    position: relative;
+    top: 70px;
+    text-decoration: underline;
+    color: white;
+}
+#pos3 {
+    position: relative;
+    top: 0px;
+    text-decoration: underline;
+    color: white;
+}
+#pos4 {
+    position: relative;
+    top: 0px;
+    text-decoration: underline;
+    color: white;
+}
+
+h4{
+    position: relative;
+    top: -25px
+}
+i{
+    position: relative;
+    top: -27px;
+}
+.high p {
+    position: relative;
+    top: -20px;
+}
