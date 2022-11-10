@@ -96,36 +96,55 @@ a {
     color: white;
     flex-direction: row;
     justify-content: space-around;
-    text-align: centr;
-    font-size: 25px;
-
+    font-size: 25px;   
+}
+option{
+    color: black;
+    font-weight: 600 ;
     
 }
 #pos1 {
     position: relative;
     top: 35px;
     text-decoration: underline;
+    background-color: transparent;
     color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
 }
 #pos2 {
     position: relative;
     top: 70px;
     text-decoration: underline;
     color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
 }
 #pos3 {
     position: relative;
     top: 0px;
     text-decoration: underline;
     color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    ;
 }
 #pos4 {
     position: relative;
     top: 0px;
     text-decoration: underline;
     color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
 }
-
 h4{
     position: relative;
     top: -25px
@@ -137,4 +156,27 @@ i{
 .high p {
     position: relative;
     top: -20px;
+}
+.high2 {
+margin-left: 190px;
+margin-top: 50px;
+margin-right: 4%;
+display: flex;
+flex-direction: row;
+}
+.pro2{
+    color: #00B39B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.mai img {
+    scale: 0.6;
+}
+.mai ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: 12%;
+    align-items: center;
+    justify-content: flex-start;
 }
