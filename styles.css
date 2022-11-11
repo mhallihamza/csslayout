@@ -166,7 +166,8 @@ flex-direction: row;
 }
 .pro2{
     color: #00B39B;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-family: "Work Sans", Arial, sans-serif ;
     font-size: 17px;
 }
 .mai img {
@@ -179,4 +180,32 @@ flex-direction: row;
     margin-left: 12%;
     align-items: center;
     justify-content: flex-start;
+}
+.grid {
+    background: #E5FAF8;
+    background-image: linear-gradient( 45deg, rgba(0,204,177,.01), rgba(61,199,233,.01));
+}
+.grid1{
+    padding-top: 5%;
+    padding-left: 14%;
+    margin-top: 4%;
+}
+.gridh1{
+    font-size: 32px;
+    color: #00B39B;
+    width: 27%;
+    height: 88px;
+    font-weight: 300;
+    font-family: "Work Sans", Arial, sans-serif ;
+}
+.gridp1{
+    font-size: 18px;
+    width: 39%;
+    font-weight: 600;
+}
+.grid img {
+    width: 37%;
+    height: 25%;
+    padding-top: 3.5%;
+    padding-left: 3.5%;
 }
