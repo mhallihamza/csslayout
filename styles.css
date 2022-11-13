@@ -164,7 +164,7 @@ margin-right: 4%;
 display: flex;
 flex-direction: row;
 }
-.pro2{
+.pro2 {
     color: #00B39B;
     font-weight: 300;
     font-family: "Work Sans", Arial, sans-serif ;
@@ -238,5 +238,65 @@ flex-direction: row;
     width: 90%;
     padding-left: 3%;
 }
+.forever h1 {
+    padding-top: 6%;
+    padding-left: 35%;
+    width: 30%;
+    color: #00B39B;
+    font-size: 1.8em;
+    font-family: "Work Sans", Arial, sans-serif ;
+    font-weight: 300;
+    text-align: center;
+}
+.forever p {
+    font-weight: 600;
+    padding-top: 2%;
+    padding-left: 34%;
+    width: 34%;
+    text-align: center;
+}
+.images{
+    margin-top: 5%;
+    margin-left: 13.8%;
+    margin-right: 11.5%;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.war1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 6%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: space-between;
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+}
+.bouton {
+   font-size: 12.5px;
+   padding-left: 5%;
+   width: 90px;
+   line-height: 25px;
+   height: 25px;
+   background-color: #3e83e0;
+   color: white;
+   border-radius: 5%;
+}
+.war:hover {
+ background-color: white;
+}
+.war, .bar, .mun, .ist, .rome, .bolo, .cur, .mex {
+    margin-right: 23px;
+    margin-bottom: 5%;
+    background-color: #1b2735;
+    border-radius: 2%;
+    border: white solid px;
+} 
+
+
 
 
