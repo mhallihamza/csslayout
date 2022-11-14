@@ -32,9 +32,18 @@ nav ul li a:hover {
 nav ul li .list {
     display: none;
 }
+
 nav ul li:hover .list {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
     background-color: white;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.list li:hover{
+    background-color: #dfdddd;
+    height: 35px;
 }
 .posit{
     position:fixed;
@@ -192,6 +201,10 @@ flex-direction: row;
 }
 .mai img {
     scale: 0.6;
+    opacity: 0.3;
+}
+.mai img:hover {
+    opacity: 1;
 }
 .mai ul {
     display: flex;
