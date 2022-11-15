@@ -25,15 +25,15 @@ nav ul li {
 }
 nav ul li .list li {
     display: block;
-    position: relative;
+   
 }
 nav ul li a:hover {
     color:#66CDAA
 }
 nav ul li .list {
     display: none;
+    position: absolute;
 }
-
 nav ul li:hover .list {
     display: flex;
     flex-direction: column;
